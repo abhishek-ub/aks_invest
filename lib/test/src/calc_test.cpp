@@ -6,7 +6,7 @@
 #include <iostream>
 #include <memory>
 
-namespace ModernCppCI {
+namespace aks_invest {
 
 namespace Test {
 
@@ -105,4 +105,4 @@ TEST_CASE("adding steps will work", "[calc]") {
 
 }  // namespace Test
 
-}  // namespace ModernCppCI
+}  // namespace aks_invest

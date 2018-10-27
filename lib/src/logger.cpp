@@ -14,7 +14,7 @@
 #include <spdlog/sinks/msvc_sink.h>
 #endif  // _DEBUG && _MSC_VER
 
-namespace ModernCppCI {
+namespace aks_invest {
 
 auto create_spdlog() {
 #ifdef _WIN32
@@ -42,4 +42,4 @@ Logger::Logger(const std::string &section) : section_{section} {
   }
 }
 
-}  // namespace ModernCppCI
+}  // namespace aks_invest
